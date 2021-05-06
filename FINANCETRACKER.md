@@ -1,7 +1,7 @@
 ---
 title: Finance Tracker
 layout: template
-filename: finance-tracker.md
+filename: FINANCETRACKER.md
 --- 
 # Finance Tracker / Visualizer
 A financial tracker / visualization tool used to gain insights about spending habits, trends, and patterns over varying transaction periods. This project was inspired due to deficiencies in RBC's MyFinanceTracker and my interest in personal finance developed during quarantine. I collected my own personal e statements from my RBC account and used the parser function from tika a Python parsing module. Which was used to extract the contents from my credit and debit e statements. Further string parsing techniques were used to extract transaction details and stored in a csv file. After compiling the e statements into a csv file, I was able to create meaningful data visualizations. Using echarts.js a data visualization library. The application should be usable if you are a RBC client. To use this application follow the instructions outlined in the [Getting Started](#getting-started) section.
