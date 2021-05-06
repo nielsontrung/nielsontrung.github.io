@@ -1,6 +1,6 @@
 ---
 title: Finance Tracker
-layout: template
+layout: jekyll-theme-slate
 filename: FINANCETRACKER.md
 --- 
 # Finance Tracker / Visualizer
