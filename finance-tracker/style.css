@@ -9,22 +9,24 @@ html::-webkit-scrollbar {
 }
 
 #table-div {
+    background-color:#282d32;
+}
+
+#table_wrapper {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    display: flex;
+    top: 0px;
 }
 
-.nopadding {
+th, td {
+    white-space: nowrap;
+}
+
+label {
+    color: white;
+}
+
+.nopadding, .dataTable {
     padding: 0 !important;
     margin: 0 !important;
- }
-
-.header-fixed { 
-    overflow: auto; 
-}
-.header-fixed thead th { 
-    position: sticky; 
-    top: 0; 
-    z-index: 1; 
 }

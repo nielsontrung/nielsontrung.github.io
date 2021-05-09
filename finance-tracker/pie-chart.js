@@ -105,11 +105,11 @@ setTimeout(function(){
                     }
                 }
             });
+            document.getElementsByTagName('input')[0].value = 'hi';
         }
     });
     pieChart.setOption(categoryOption);
 });
-
 
 if (categoryOption && typeof categoryOption === 'object') {
     pieChart.setOption(categoryOption);

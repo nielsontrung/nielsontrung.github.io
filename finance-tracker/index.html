@@ -18,11 +18,14 @@
     <script src="table.js"></script>
     <!-- custom stylesheets -->
     <link rel="stylesheet" href="style.css">
+    <!-- data tables library -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.24/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.24/datatables.min.js"></script>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row justify-content-evenly">            
-            <div class="col"> 
+        <div class="row justify-content-center">            
+            <div id="chart-div" class="col"> 
                 <!-- pie chart -->
                 <div id="pie-chart" style="width: 800px;height:800px;"></div>
                 <!-- category bar chart -->
@@ -30,15 +33,25 @@
                 <!-- month bar chart -->
                 <div id="month-bar-chart" style="width: 800px;height:800px;"></div>
             </div>
-            <div id="table-div" class="col nopadding header-fixed"> 
+            <div id="table-div" class="col nopadding sticky">
                 <!-- table -->
-                <script>                    
+                <script>
                     document.write(table);
-                    $("#table-div").height(window.innerHeight)
+                    $(document).ready(function() {
+                        $('#table').DataTable({
+                            "ordering": true,
+                            "info": false,
+                            "scrollY": '90vh',
+                            "scrollCollapse": true,
+                            "paging": false,
+                            fixedHeader: true
+                        });
+                    });
                 </script>
             </div>
         </div>
     </div>
+    <div></div>
     <!-- include custom scripts -->
     <script src="pie-chart.js"></script>
     <script src="category-bar-chart.js"></script>

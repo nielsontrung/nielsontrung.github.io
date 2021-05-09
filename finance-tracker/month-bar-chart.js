@@ -42,6 +42,25 @@ monthOption = {
   series: monthSeries
 };
 
+function getMonthFromString(mon){
+  let month = new Date(Date.parse(mon +" 1, 2012")).getMonth()+1;
+  month = ''+month;
+  if (month.length < 2){
+    month = '0' + month;
+  }
+  month = '-' + month + '-';
+  return month;
+}
+
 if (monthOption && typeof monthOption === 'object') {
   monthChart.setOption(monthOption);
+  monthChart.on('mouseover', function (event) {
+    let month_name = event.name;
+    let month_code = getMonthFromString(month_name);
+    let inputField = document.getElementsByTagName('input')[0];
+    inputField.value = month_code;
+    inputField.dispatchEvent(new Event('click'));
+    inputField.dispatchEvent(new Event('focus'));
+    inputField.dispatchEvent(new KeyboardEvent('keyup',{'key':'Enter'}));
+  });
 }

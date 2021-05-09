@@ -38,11 +38,19 @@ categoryOption = {
   },
   yAxis: {
     type: 'category',
-    data: ['withdrawl', 'utilities', 'travel', 'restaurants', 'personal care', 'mobile', 'loans', 'investments', 'home improvement', 'healthcare', 'groceries', 'general merchandise', 'gas', 'fee', 'fine', 'e transfers', 'entertainment', 'electronics', 'education', 'clothing', 'automotive']
+    data: ['withdrawl', 'utilities', 'travel', 'restaurants', 'personal care', 'mobile', 'loans', 'investments', 'home', 'healthcare', 'groceries', 'general', 'gas', 'fee', 'fine', 'e transfers', 'entertainment', 'electronics', 'education', 'clothing', 'automotive']
   },
   series: categorySeries
 };
 
 if (categoryOption && typeof categoryOption === 'object') {
   categoryChart.setOption(categoryOption);
+  categoryChart.on('mouseover', function (event) {
+    let category = event.name;
+    let inputField = document.getElementsByTagName('input')[0];
+    inputField.value = category;
+    inputField.dispatchEvent(new Event('click'));
+    inputField.dispatchEvent(new Event('focus'));
+    inputField.dispatchEvent(new KeyboardEvent('keyup',{'key':'Enter'}));
+  });
 }
