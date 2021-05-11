@@ -18,6 +18,11 @@ for (var i = 0; i < yearly_category_stats.length; i++) {
     }
 }
 
+var years = []
+for(let i = start_year; i <= end_year; i++){
+    years.push(i);
+}
+
 var categoryOption;
 var startYear = '' + start_year
 setTimeout(function(){
@@ -105,7 +110,11 @@ setTimeout(function(){
                     }
                 }
             });
-            document.getElementsByTagName('input')[0].value = 'hi';
+            let inputField = document.getElementsByTagName('input')[0];
+            inputField.value =  years[xAxisInfo.value];
+            inputField.dispatchEvent(new Event('click'));
+            inputField.dispatchEvent(new Event('focus'));
+            inputField.dispatchEvent(new KeyboardEvent('keyup',{'key':'Enter'}));
         }
     });
     pieChart.setOption(categoryOption);

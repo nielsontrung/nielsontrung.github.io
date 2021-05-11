@@ -38,7 +38,7 @@ categoryOption = {
   },
   yAxis: {
     type: 'category',
-    data: ['withdrawl', 'utilities', 'travel', 'restaurants', 'personal care', 'mobile', 'loans', 'investments', 'home', 'healthcare', 'groceries', 'general', 'gas', 'fee', 'fine', 'e transfers', 'entertainment', 'electronics', 'education', 'clothing', 'automotive']
+    data: ['withdrawal', 'utilities', 'travel', 'restaurants', 'personal care', 'mobile', 'loans', 'investments', 'home', 'healthcare', 'groceries', 'general', 'gas', 'fee', 'fine', 'e transfers', 'entertainment', 'electronics', 'education', 'clothing', 'automotive']
   },
   series: categorySeries
 };
