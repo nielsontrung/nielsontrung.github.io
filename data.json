@@ -1,0 +1,64 @@
+{
+  "projects": {
+    "finance-tracker": {
+      "name": "finance-tracker",
+      "start-date": "2021-04",
+      "end-date": "2021-05",
+      "intro": "finance-tracker",
+      "summary": "blah blah blah",
+      "implementation": "",
+      "technology": "Python JavaScript HTML CSS",
+      "demo": "",
+      "git": "https://github.com/nielsontrung/finance-tracker",
+      "images": []
+    },
+    "selfish-brian": {
+      "name": "Selfish Brian",
+      "start-date": "2021-04",
+      "end-date": "2021-05",
+      "intro": "finance-tracker",
+      "summary": "blah blah blah",
+      "implementation": "JavaScript Python",
+      "technology": "6502 processor dasm assembly",
+      "demo": "",
+      "git": "https://github.com/nielsontrung/Selfish-Brian",
+      "images": []
+    },
+    "london-homicides-visualization": {
+      "name": "London Homicides Visualization",
+      "start-date": "2020-01",
+      "end-date": "2020-04",
+      "intro": "a hospital management system",
+      "summary": "blah blah blah",
+      "implementation": "JavaScript HTML CSS SQL",
+      "technology": "JavaScript HTML CSS SQL",
+      "demo": "",
+      "git": "https://github.com/nielsontrung/London-Homicides-Visualization",
+      "images": []
+    },
+    "hospital-management-system": {
+      "name": "hospital management system",
+      "start-date": "2019-01",
+      "end-date": "2019-04",
+      "intro": "a hospital management system",
+      "summary": "blah blah blah",
+      "implementation": "JavaScript HTML CSS SQL",
+      "technology": "JavaScript HTML CSS SQL",
+      "demo": "",
+      "git": "https://github.com/nielsontrung/Hospital-Management-System",
+      "images": []
+    },
+    "poker-project": {
+      "name": "Poker Project",
+      "start-date": "2018-01",
+      "end-date": "2018-04",
+      "intro": "To explore more technical aspects of programming we decided to create a game with computational aspects. With most card games, computation is required to determine winning hands because of this we wanted to choose a game that would challenge our ability to program a game that could determine strategies and simulate human behaviour. From the previously mentioned criteria we decided to create a poker game this would allow us to explore the criteria listed above. ",
+      "summary": "This was particularly challenging since our previous programming experience was very limited. Due to a lack of knowledge with programming standards and design, creating the architecture of the project was quite difficult. Because of this we needed to research game design aspects as well as establish a good understanding about the game we were developing. After adequate research, we were able to start development on the base mechanics and technical aspects of the project. Testing with a text-based version run in a console. The next stage of the project that posed a challenge was to integrate a working graphical user interface. Since it was our first time working with a graphical interface, integrating both components was quite difficult. Creating a game as our project also allowed us to work with multiple data structures to store the game state and other variables. ",
+      "implementation": "In conclusion this project was an excellent experience and opportunity to concrete our skills as programmers while also introducing us to front end programming. The final product produced was less entertaining compared to other projects due to graphical limitations. Rather than focusing on entertainment and aesthetics, we wanted to develop our technical skills by choosing a game where we explore and develop or skills. ",
+      "technology": "Java JavaFX",
+      "demo": "",
+      "git": "https://github.com/nielsontrung/PokerProject",
+      "images": []
+    }
+  }
+}
