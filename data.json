@@ -1,15 +1,27 @@
 {
   "header": {
-    "github": "",
+    "github": "https://github.com/nielsontrung",
     "resume": "",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/nielson-trung-897080163/"
   },
   "projects": [
     {
-      "name": "finance-tracker",
+      "name": "Discord Bot",
+      "start": "2021-05",
+      "end": "2021-06",
+      "intro": "finance-tracker",
+      "summary": "blah blah blah",
+      "implementation": "",
+      "technology": "Python",
+      "demo": "https://nielsontrung.github.io/finance-tracker",
+      "git": "https://github.com/nielsontrung/finance-tracker",
+      "images": []
+    },
+    {
+      "name": "Finance Tracker",
       "start": "2021-04",
       "end": "2021-05",
-      "intro": "finance-tracker",
+      "intro": "a finance tracker visualization tool",
       "summary": "blah blah blah",
       "implementation": "",
       "technology": "Python JavaScript HTML CSS",
@@ -21,9 +33,9 @@
       "name": "Selfish Brian",
       "start": "2021-04",
       "end": "2021-05",
-      "intro": "finance-tracker",
+      "intro": "a game created for Commodore VIC-20",
       "summary": "blah blah blah",
-      "implementation": "JavaScript Python",
+      "implementation": "6502 processor dasm assembly",
       "technology": "6502 processor dasm assembly",
       "demo": "",
       "git": "https://github.com/nielsontrung/Selfish-Brian",
@@ -35,9 +47,21 @@
       "end": "2020-04",
       "intro": "a hospital management system",
       "summary": "blah blah blah",
-      "implementation": "JavaScript HTML CSS SQL",
-      "technology": "JavaScript HTML CSS SQL",
+      "implementation": "Implemented with HTML CSS JavaScript D3.js",
+      "technology": "HTML CSS JavaScript D3.js",
       "demo": "",
+      "git": "https://github.com/nielsontrung/London-Homicides-Visualization",
+      "images": []
+    },
+    {
+      "name": "Training Logistic Regression Models",
+      "start": "2020-09",
+      "end": "2020-12",
+      "intro": "The initial model was improved by partitioning the model input to train the model more effectively. This was accomplished by allocating more of the data for training and using the rest of the data for testing. More layers were added to create more trainable nodes in the model. The model was also run with more epochs, which indicates the number of passes of the entire training dataset the machine learning algorithm has completed. Dropout was used to prevent the neural network from overfitting, by randomly selecting neurons to ignore during training. ",
+      "summary": "blah blah blah",
+      "implementation": "The resulting models trained, helped me grasp a basic understanding of machine learning, and neural networks. This is one of the fields of study in computer I am most interested. The possibilities in ai are infinite, in the future I hope I can explore this field further.",
+      "technology": "Python TensorFlow",
+      "demo": "https://colab.research.google.com/drive/1mELmGEZqvaNIAlHtJbTomX4Kg0qplptm?usp=sharing",
       "git": "https://github.com/nielsontrung/London-Homicides-Visualization",
       "images": []
     },
@@ -54,7 +78,19 @@
       "images": []
     },
     {
-      "name": "hospital management system",
+      "name": "West Wind Dental",
+      "start": "2019-01",
+      "end": "2019-04",
+      "intro": "a dynamic appointment booking system",
+      "summary": "blah blah blah",
+      "implementation": "JavaScript HTML CSS SQL",
+      "technology": "JavaScript HTML CSS SQL",
+      "demo": "",
+      "git": "https://github.com/nielsontrung/Hospital-Management-System",
+      "images": []
+    },
+    {
+      "name": "Hospital Management System",
       "start": "2019-01",
       "end": "2019-04",
       "intro": "a hospital management system",
@@ -79,8 +115,8 @@
     }
   ],
   "footer": {
-    "location": "",
-    "email": "",
+    "location": "Calgary, AB",
+    "email": "nielson.trung@ucalgary.ca",
     "phone": ""
   }
 }
