@@ -11,7 +11,7 @@
 ### Documentation
 ## Finance Tracker
 ### Documentation
-https://github.com/nielsontrung/finance-tracker
+[https://github.com/nielsontrung/finance-tracker](https://github.com/nielsontrung/finance-tracker)
 ### Live Demo
 https://nielsontrung.github.io/finance-tracker
 ## Selfish Brian
