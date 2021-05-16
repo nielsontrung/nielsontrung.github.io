@@ -1,10 +1,12 @@
 # nielsontrung.github.io
+
 ## Projects
 - [Discord Bot](#discord-bot)
 - [Finance Tracker](#finance-tracker)
 - [Selfish Brian](#selfish-brian)
 - [London Homocides Visualization](#london-homocides-visualization)
 - [Tutor Finder](#tutor-finder)
+
 ## Discord Bot
 ### Documentation
 ## Finance Tracker
