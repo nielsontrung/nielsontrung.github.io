@@ -12,7 +12,7 @@
       "intro": "finance-tracker",
       "summary": "blah blah blah",
       "implementation": "",
-      "technology": "Python",
+      "technology": ["Python"],
       "demo": "https://nielsontrung.github.io/finance-tracker",
       "git": "https://github.com/nielsontrung/finance-tracker",
       "images": []
@@ -24,7 +24,7 @@
       "intro": "a finance tracker visualization tool",
       "summary": "blah blah blah",
       "implementation": "",
-      "technology": "Python JavaScript HTML CSS",
+      "technology": ["Python", "JavaScript", "HTML", "CSS"],
       "demo": "https://nielsontrung.github.io/finance-tracker",
       "git": "https://github.com/nielsontrung/finance-tracker",
       "images": []
@@ -36,7 +36,7 @@
       "intro": "a game created for Commodore VIC-20",
       "summary": "blah blah blah",
       "implementation": "6502 processor dasm assembly",
-      "technology": "6502 processor dasm assembly",
+      "technology": ["6502 processor", "dasm assembly"],
       "demo": "",
       "git": "https://github.com/nielsontrung/Selfish-Brian",
       "images": []
@@ -48,7 +48,7 @@
       "intro": "a hospital management system",
       "summary": "blah blah blah",
       "implementation": "Implemented with HTML CSS JavaScript D3.js",
-      "technology": "HTML CSS JavaScript D3.js",
+      "technology": ["HTML", "CSS", "JavaScript", "D3.js"],
       "demo": "",
       "git": "https://github.com/nielsontrung/London-Homicides-Visualization",
       "images": []
@@ -60,7 +60,7 @@
       "intro": "The initial model was improved by partitioning the model input to train the model more effectively. This was accomplished by allocating more of the data for training and using the rest of the data for testing. More layers were added to create more trainable nodes in the model. The model was also run with more epochs, which indicates the number of passes of the entire training dataset the machine learning algorithm has completed. Dropout was used to prevent the neural network from overfitting, by randomly selecting neurons to ignore during training. ",
       "summary": "blah blah blah",
       "implementation": "The resulting models trained, helped me grasp a basic understanding of machine learning, and neural networks. This is one of the fields of study in computer I am most interested. The possibilities in ai are infinite, in the future I hope I can explore this field further.",
-      "technology": "Python TensorFlow",
+      "technology": ["Python", "TensorFlow"],
       "demo": "https://colab.research.google.com/drive/1mELmGEZqvaNIAlHtJbTomX4Kg0qplptm?usp=sharing",
       "git": "https://github.com/nielsontrung/London-Homicides-Visualization",
       "images": []
@@ -72,7 +72,7 @@
       "intro": "a concept mobile application",
       "summary": "blah blah blah",
       "implementation": "",
-      "technology": "Balsamiq AdobeXD",
+      "technology": ["Balsamiq", "AdobeXD"],
       "demo": "https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/",
       "git": "https://github.com/nielsontrung/London-Homicides-Visualization",
       "images": []
@@ -84,7 +84,7 @@
       "intro": "a dynamic appointment booking system",
       "summary": "blah blah blah",
       "implementation": "JavaScript HTML CSS SQL",
-      "technology": "JavaScript HTML CSS SQL",
+      "technology": ["JavaScript", "HTML", "CSS", "SQL", "PHP"],
       "demo": "",
       "git": "https://github.com/nielsontrung/Hospital-Management-System",
       "images": []
@@ -96,7 +96,7 @@
       "intro": "a hospital management system",
       "summary": "blah blah blah",
       "implementation": "JavaScript HTML CSS SQL",
-      "technology": "JavaScript HTML CSS SQL",
+      "technology": ["JavaScript", "HTML", "CSS", "SQL", "PHP"],
       "demo": "",
       "git": "https://github.com/nielsontrung/Hospital-Management-System",
       "images": []
@@ -108,7 +108,7 @@
       "intro": "To explore more technical aspects of programming we decided to create a game with computational aspects. With most card games, computation is required to determine winning hands because of this we wanted to choose a game that would challenge our ability to program a game that could determine strategies and simulate human behaviour. From the previously mentioned criteria we decided to create a poker game this would allow us to explore the criteria listed above. ",
       "summary": "This was particularly challenging since our previous programming experience was very limited. Due to a lack of knowledge with programming standards and design, creating the architecture of the project was quite difficult. Because of this we needed to research game design aspects as well as establish a good understanding about the game we were developing. After adequate research, we were able to start development on the base mechanics and technical aspects of the project. Testing with a text-based version run in a console. The next stage of the project that posed a challenge was to integrate a working graphical user interface. Since it was our first time working with a graphical interface, integrating both components was quite difficult. Creating a game as our project also allowed us to work with multiple data structures to store the game state and other variables. ",
       "implementation": "In conclusion this project was an excellent experience and opportunity to concrete our skills as programmers while also introducing us to front end programming. The final product produced was less entertaining compared to other projects due to graphical limitations. Rather than focusing on entertainment and aesthetics, we wanted to develop our technical skills by choosing a game where we explore and develop or skills. ",
-      "technology": "Java JavaFX",
+      "technology": ["Java", "JavaFX"],
       "demo": "",
       "git": "https://github.com/nielsontrung/PokerProject",
       "images": []
