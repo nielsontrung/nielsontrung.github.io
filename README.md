@@ -3,8 +3,8 @@
 - [Discord Bot](#discord-bot)
 - [Finance Tracker](#finance-tracker)
 - [Selfish Brian](#selfish-brian)
-- [Tutori Finder](#tutor-finder)
-- 
+- [London Homocides Visualization](#london-homocides-visualization)
+- [Tutor Finder](#tutor-finder)
 ## Discord Bot
 ### Documentation
 ## Finance Tracker
@@ -15,9 +15,10 @@ https://nielsontrung.github.io/finance-tracker
 ## Selfish Brian
 ### Documentation
 https://github.com/nielsontrung/Selfish-Brian
-## London Homocides Visualizaiton
-## Live Demo
-## Documentation
+## London Homocides Visualization
+### Live Demo
+https://nadramon.github.io/pages/583Final/
+### Documentation
 https://github.com/nielsontrung/London-Homicides-Visualization
 ## Tutor Finder
 ### Live Demo
