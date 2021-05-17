@@ -1,5 +1,8 @@
 # nielsontrung.github.io
 
+## About
+Hi I'm Nielson a undergraduate computer science student at the University of Calgary.
+
 ## Projects
 - [Discord Bot](#discord-bot)
 - [Finance Tracker](#finance-tracker)
