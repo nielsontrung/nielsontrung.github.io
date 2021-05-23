@@ -14,10 +14,10 @@ Hi I'm Nielson an undergraduate computer science student at the University of Ca
 ### Documentation
 [https://github.com/nielsontrung/discord-bot](https://github.com/nielsontrung/discord-bot)
 ## Finance Tracker
-### Documentation
-[https://github.com/nielsontrung/finance-tracker](https://github.com/nielsontrung/finance-tracker)
 ### Live Demo
 [https://nielsontrung.github.io/finance-tracker](https://nielsontrung.github.io/finance-tracker)
+### Documentation
+[https://github.com/nielsontrung/finance-tracker](https://github.com/nielsontrung/finance-tracker)
 ## Selfish Brian
 ### Documentation
 [https://github.com/nielsontrung/Selfish-Brian](https://github.com/nielsontrung/Selfish-Brian)
