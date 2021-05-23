@@ -12,6 +12,7 @@ Hi I'm Nielson a undergraduate computer science student at the University of Cal
 
 ## Discord Bot
 ### Documentation
+[https://github.com/nielsontrung/discord-bot](https://github.com/nielsontrung/discord-bot)
 ## Finance Tracker
 ### Documentation
 [https://github.com/nielsontrung/finance-tracker](https://github.com/nielsontrung/finance-tracker)
