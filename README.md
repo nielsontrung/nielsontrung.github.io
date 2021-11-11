@@ -4,12 +4,17 @@
 Hi I'm Nielson an undergraduate computer science student at the University of Calgary.
 
 ## Projects
+- [Pokemon Team Builder](#pokemon-team-builder)
 - [Discord Bot](#discord-bot)
 - [Finance Tracker](#finance-tracker)
 - [Selfish Brian](#selfish-brian)
 - [London Homocides Visualization](#london-homocides-visualization)
 - [Tutor Finder](#tutor-finder)
-
+## Pokemon Team Builder
+### Live Demo
+[https://nielsontrung.github.io/pokemon-team-builder](https://nielsontrung.github.io/pokemon-team-builder)
+### Documentation
+[https://github.com/nielsontrung/pokemon-team-builder](https://github.com/nielsontrung/pokemon-team-builder)
 ## Discord Bot
 ### Documentation
 [https://github.com/nielsontrung/discord-bot](https://github.com/nielsontrung/discord-bot)
