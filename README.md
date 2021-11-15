@@ -1,5 +1,3 @@
-# nielsontrung.github.io
-
 ## About
 Hi I'm Nielson an undergraduate computer science student at the University of Calgary.
 
