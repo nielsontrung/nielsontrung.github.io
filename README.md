@@ -8,6 +8,7 @@ Hi I'm Nielson an undergraduate computer science student at the University of Ca
 - [Selfish Brian](#selfish-brian)
 - [London Homocides Visualization](#london-homocides-visualization)
 - [Tutor Finder](#tutor-finder)
+- [Poker Project](#poker-project)
 ## Pokemon Team Builder
 ### Live Demo
 [https://nielsontrung.github.io/pokemon-team-builder](https://nielsontrung.github.io/pokemon-team-builder)
@@ -34,4 +35,7 @@ Hi I'm Nielson an undergraduate computer science student at the University of Ca
 [https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/](https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/)
 ### Documentation
 [https://github.com/nielsontrung/tutor-finder](https://github.com/nielsontrung/tutor-finder)
+## Poker Project
+### Documentation
+[https://github.com/nielsontrung/PokerProject](https://github.com/nielsontrung/PokerProject)
 
