@@ -3,6 +3,7 @@ Hi I'm Nielson an undergraduate computer science student at the University of Ca
 
 ## Projects
 - [Pokemon Team Builder](#pokemon-team-builder)
+- [Zoom Note Taker](#zoom-note-taker)
 - [Discord Bot](#discord-bot)
 - [Finance Tracker](#finance-tracker)
 - [Selfish Brian](#selfish-brian)
@@ -14,6 +15,9 @@ Hi I'm Nielson an undergraduate computer science student at the University of Ca
 [https://nielsontrung.github.io/pokemon-team-builder](https://nielsontrung.github.io/pokemon-team-builder)
 ### Documentation
 [https://github.com/nielsontrung/pokemon-team-builder](https://github.com/nielsontrung/pokemon-team-builder)
+## Zoom Note Taker
+### Documentation
+[https://github.com/nielsontrung/zoom-note-taker](https://github.com/nielsontrung/zoom-note-taker)
 ## Discord Bot
 ### Documentation
 [https://github.com/nielsontrung/discord-bot](https://github.com/nielsontrung/discord-bot)
