@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Pokémon Team Builder",
+    "start-month": "Nov",
+    "end-month": "Nov",
+    "demo-link": "https://nielsontrung.github.io/pokemon-team-builder/",
+    "git-link": "https://github.com/nielsontrung/pokemon-team-builder",
+    "doc-link": "https://github.com/",
+    "images": ["https://github.com/", "https://github.com/"]
+  },
+  {
+    "name": "Zoom Note Taker",
+    "start-month": "Oct",
+    "end-month": "Oct",
+    "demo-link": "",
+    "git-link": "https://github.com/nielsontrung/zoom-note-taker",
+    "doc-link": "https://github.com/",
+    "images": ["https://github.com/", "https://github.com/"]
+  },
+  {
+    "name": "Finance Tracker",
+    "start-month": "May",
+    "end-month": "May",
+    "demo-link": "https://nielsontrung.github.io/finance-tracker/",
+    "git-link": "https://github.com/nielsontrung/finance-tracker",
+    "doc-link": "https://github.com/",
+    "images": ["https://github.com/", "https://github.com/"]
+  },
+  {
+    "name": "Tutor Finder",
+    "start-month": "jan",
+    "end-month": "dec",
+    "demo-link": "https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/",
+    "git-link": "https://github.com/nielsontrung/tutor-finder",
+    "doc-link": "https://github.com/",
+    "images": ["https://github.com/", "https://github.com/"]
+  },
+  {
+    "name": "project-name",
+    "start-month": "jan",
+    "end-month": "dec",
+    "demo-link": "https://github.com/",
+    "git-link": "https://github.com/",
+    "doc-link": "https://github.com/",
+    "images": ["https://github.com/", "https://github.com/"]
+  },
+  {
+    "name": "project-name",
+    "start-month": "jan",
+    "end-month": "dec",
+    "demo-link": "https://github.com/",
+    "git-link": "https://github.com/",
+    "doc-link": "https://github.com/",
+    "images": ["https://github.com/", "https://github.com/"]
+  }
+]
