@@ -1,56 +1,91 @@
-[
-  {
-    "name": "Pokémon Team Builder",
-    "start-month": "Nov",
-    "end-month": "Nov",
-    "demo-link": "https://nielsontrung.github.io/pokemon-team-builder/",
-    "git-link": "https://github.com/nielsontrung/pokemon-team-builder",
-    "doc-link": "https://github.com/",
-    "images": ["https://github.com/", "https://github.com/"]
+{
+  "home": { "name": "Nielson Trung", "description": "this is a description" },
+  "about": {
+    "email": "nielson.h.trung@gmail.com",
+    "phone": "(403) 383 2142",
+    "description": "Hi my name is Nielson, I am a recent graduate from the University of Calgary holding a Bachelor of Science in Computer Science",
+    "resume": "",
+    "skills": [
+      "fab fa-python",
+      "fab fa-js",
+      "fab fa-html5",
+      "fab fa-css3",
+      "fab fa-react",
+      "fab fa-vuejs",
+      "fab fa-node-js",
+      "mdi-database",
+      "mdi-graphql"
+    ]
   },
-  {
-    "name": "Zoom Note Taker",
-    "start-month": "Oct",
-    "end-month": "Oct",
-    "demo-link": "",
-    "git-link": "https://github.com/nielsontrung/zoom-note-taker",
-    "doc-link": "https://github.com/",
-    "images": ["https://github.com/", "https://github.com/"]
-  },
-  {
-    "name": "Finance Tracker",
-    "start-month": "May",
-    "end-month": "May",
-    "demo-link": "https://nielsontrung.github.io/finance-tracker/",
-    "git-link": "https://github.com/nielsontrung/finance-tracker",
-    "doc-link": "https://github.com/",
-    "images": ["https://github.com/", "https://github.com/"]
-  },
-  {
-    "name": "Tutor Finder",
-    "start-month": "jan",
-    "end-month": "dec",
-    "demo-link": "https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/",
-    "git-link": "https://github.com/nielsontrung/tutor-finder",
-    "doc-link": "https://github.com/",
-    "images": ["https://github.com/", "https://github.com/"]
-  },
-  {
-    "name": "project-name",
-    "start-month": "jan",
-    "end-month": "dec",
-    "demo-link": "https://github.com/",
-    "git-link": "https://github.com/",
-    "doc-link": "https://github.com/",
-    "images": ["https://github.com/", "https://github.com/"]
-  },
-  {
-    "name": "project-name",
-    "start-month": "jan",
-    "end-month": "dec",
-    "demo-link": "https://github.com/",
-    "git-link": "https://github.com/",
-    "doc-link": "https://github.com/",
-    "images": ["https://github.com/", "https://github.com/"]
-  }
-]
+  "projects": [
+    {
+      "name": "Pokémon Team Builder",
+      "start_month": "Nov 2021",
+      "end_month": "",
+      "demo_link": "https://nielsontrung.github.io/pokemon-team-builder/",
+      "git_link": "https://github.com/nielsontrung/pokemon-team-builder",
+      "doc_link": "https://github.com/",
+      "image": {
+        "width": "640px",
+        "height": "320px",
+        "alt": "This is an image",
+        "lazy-src": "https://i.imgur.com/NmtBJQg.png",
+        "src": "../assets/pokemon-team-builder.png"
+      },
+      "icons": [
+        { "icon": "fab fa-react", "colour": "#72dbfa" },
+        { "icon": "fab fa-js", "colour": "#ffca28" },
+        { "icon": "fab fa-html5", "colour": "#e44d26" },
+        { "icon": "fab fa-css3", "colour": "#42a5f5" }
+      ],
+      "description": "A Single Page Pokémon Database and Team Builder!"
+    },
+    {
+      "name": "Zoom Note Taker",
+      "start_month": "Oct 2021",
+      "end_month": "",
+      "demo_link": "",
+      "git_link": "https://github.com/nielsontrung/zoom-note-taker",
+      "doc_link": "https://github.com/",
+      "image": {},
+      "icons": [{ "icon": "fab fa-python", "colour": "white" }],
+      "description": "An automated note taking solution for zoom lectures"
+    },
+    {
+      "name": "Finance Tracker",
+      "start_month": "May 2021",
+      "end_month": "",
+      "demo_link": "https://nielsontrung.github.io/finance-tracker/",
+      "git_link": "https://github.com/nielsontrung/finance-tracker",
+      "doc_link": "https://github.com/",
+      "image": {
+        "src": "../assets/finance-tracker.png",
+        "width": "640px",
+        "height": "320px",
+        "alt": "https://i.imgur.com/ppRdRvw.png"
+      },
+      "icons": [
+        { "icon": "fab fa-python", "colour": "white" },
+        { "icon": "fab fa-js", "colour": "#ffca28" },
+        { "icon": "fab fa-html5", "colour": "#e44d26" },
+        { "icon": "fab fa-css3", "colour": "#42a5f5" }
+      ],
+      "description": "A finance tracker and visualization tool made to see trends across historical and categorical spending"
+    },
+    {
+      "name": "Tutor Finder",
+      "start_month": "Sept 2019",
+      "end_month": "Nov 2019",
+      "demo_link": "https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/",
+      "git_link": "https://github.com/nielsontrung/tutor-finder",
+      "doc_link": "https://github.com/",
+      "image": {
+        "src": "../assets/tutor-finder.png",
+        "width": "200px",
+        "height": "440px",
+        "alt": "https://imgur.com/7UKDu4Q.png"
+      },
+      "description": "A concept mobile application designed to help students find tutors. Try the live demo with almost 300 frames!"
+    }
+  ]
+}
