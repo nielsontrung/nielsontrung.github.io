@@ -1,16 +1,19 @@
 ## About
-Hi I'm Nielson an undergraduate computer science student at the University of Calgary.
+Hi I'm Nielson a recent graduate from the University of Calgary holding a Bachelor of Science in Computer Science. Proficient
+in multiple programming languages with a highly transferable skill set seeking to obtain a position where I can
+develop my skills and knowledge. Self-motivated individual interested in developing productivity software
+solutions that automate or solve problems I encounter. A team-player with proven communication skills and a
+strong ability to handle multiple tasks under tight deadlines.
 
 ## Projects
-- [Pokemon Team Builder](#pokemon-team-builder)
+- [Pokémon Team Builder](#pokémon-team-builder)
 - [Zoom Note Taker](#zoom-note-taker)
-- [Discord Bot](#discord-bot)
 - [Finance Tracker](#finance-tracker)
 - [Selfish Brian](#selfish-brian)
 - [London Homocides Visualization](#london-homocides-visualization)
 - [Tutor Finder](#tutor-finder)
 - [Poker Project](#poker-project)
-## Pokemon Team Builder
+## Pokémon Team Builder
 ### Live Demo
 [https://nielsontrung.github.io/pokemon-team-builder](https://nielsontrung.github.io/pokemon-team-builder)
 ### Documentation
@@ -18,9 +21,6 @@ Hi I'm Nielson an undergraduate computer science student at the University of Ca
 ## Zoom Note Taker
 ### Documentation
 [https://github.com/nielsontrung/zoom-note-taker](https://github.com/nielsontrung/zoom-note-taker)
-## Discord Bot
-### Documentation
-[https://github.com/nielsontrung/discord-bot](https://github.com/nielsontrung/discord-bot)
 ## Finance Tracker
 ### Live Demo
 [https://nielsontrung.github.io/finance-tracker](https://nielsontrung.github.io/finance-tracker)
