@@ -6,6 +6,8 @@ var option
 
 var startYear
 var endYear
+var calendarWidth = 220
+var windowWidth = $(document).width()
 
 function getCalendarData(csv) {
   data = {}
@@ -44,14 +46,19 @@ function getTooltipFormat(p) {
   )
 }
 function getVisualMapOffset() {
-  var offset = (endYear - startYear + 1) * 220 + 50
-  return offset
+  var calendarOffset =
+    (windowWidth - (endYear + 2 - startYear) * calendarWidth) /
+    (endYear - startYear)
+  return calendarOffset
 }
 
 function getCalendarOptions() {
   var calendarOptions = []
-  var cellWidth = 15
-  var cellHeight = 15
+  var cellWidth = 13
+  var cellHeight = 13
+  var calendarOffset =
+    (windowWidth - (endYear - startYear) * calendarWidth) /
+    (endYear - startYear)
   for (var i = 0; i < endYear - startYear + 1; i++) {
     option = {
       cellSize: [cellWidth, cellHeight],
@@ -59,7 +66,7 @@ function getCalendarOptions() {
       range: (startYear + i).toString(),
       bottom: 40,
     }
-    if (i !== 0) option["left"] = i * 220 + 90
+    option["left"] = i * calendarWidth + calendarOffset
     calendarOptions.push(option)
   }
   return calendarOptions
@@ -104,7 +111,7 @@ $.get(calendarURL, (response) => {
       left: "center",
       top: 15,
       textStyle: {
-        fontSize: 30,
+        fontSize: 25,
       },
     },
     tooltip: {
@@ -118,7 +125,7 @@ $.get(calendarURL, (response) => {
       type: "continuous",
       calculable: true,
       orient: "vertical",
-      left: getVisualMapOffset(),
+      right: getVisualMapOffset(),
       top: "center",
     },
     calendar: getCalendarOptions(),

@@ -2,7 +2,7 @@ var mapDom = document.getElementById("map")
 var map = echarts.init(mapDom, "dark")
 var mapApp = {}
 
-var covid_data
+var map_data
 var option
 var end_date_formatted
 
@@ -35,7 +35,7 @@ function getEndDate(date) {
   var year = date_list[0]
   var month = month[date_list[1]]
   var day = date_list[2]
-  end_date_formatted = "(" + month + "-" + year + "-" + day + ")"
+  end_date_formatted = "(" + month + "-" + day + "-" + year + ")"
   return end_date_formatted
 }
 
@@ -83,24 +83,24 @@ const covid_URL =
 const geo_JSON_URL =
   "https://raw.githubusercontent.com/nielsontrung/calgary-covid-map/main/census_by_community_2019.geojson"
 $.get(covid_URL, (response) => {
-  covid_data = getDailyActiveCasesPerCommunity(response)
+  map_data = getDailyActiveCasesPerCommunity(response)
   end_date_formatted = getEndDate(
-    Object.keys(covid_data)[Object.keys(covid_data).length - 1]
+    Object.keys(map_data)[Object.keys(map_data).length - 1]
   )
-  var end_date = Object.keys(covid_data)[Object.keys(covid_data).length - 1]
+  var end_date = Object.keys(map_data)[Object.keys(map_data).length - 1]
   $.get(geo_JSON_URL, (calgary_Json) => {
     echarts.registerMap("Calgary", calgary_Json, {})
     option = {
       title: {
-        text: "Daily Active Covid Cases by Community \n " + end_date_formatted,
+        text: "Active Covid Cases by Calgary Community " + end_date_formatted,
         subtext:
-          "Data from https://data.calgary.ca/Demographics/Census-by-Community-2019/rkfr-buzb \n https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#data-export",
+          "Data from https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#data-export",
         sublink:
           "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#data-export",
         left: "center",
-        top: 20,
+        top: 10,
         textStyle: {
-          fontSize: 30,
+          fontSize: 25,
         },
       },
       tooltip: {
@@ -140,11 +140,14 @@ $.get(covid_URL, (response) => {
       },
       backgroundColor: "#161627",
       visualMap: {
-        right: 100,
+        orient: "vertical",
         top: "center",
+        right: 100,
         min: 0,
         max: 300,
         color: [
+          "#a12532",
+          "#b43441",
           "#b9404c",
           "#c2575a",
           "#cd7169",
@@ -173,7 +176,6 @@ $.get(covid_URL, (response) => {
           },
           label: {
             color: "white",
-            // show: true,
             formatter: function (params) {
               return params.name + "\n" + params.value
             },
@@ -181,8 +183,7 @@ $.get(covid_URL, (response) => {
               color: "white",
             },
           },
-          // covid data
-          data: covid_data[end_date],
+          data: map_data[end_date],
         },
       ],
     }
