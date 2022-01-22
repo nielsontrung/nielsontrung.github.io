@@ -19,6 +19,28 @@
   },
   "projects": [
     {
+      "name": "Calgary Covid-19 Tracker",
+      "start_month": "Jan 2022",
+      "end_month": "",
+      "demo_link": "https://nielsontrung.github.io/calgary-covid-tracker/",
+      "git_link": "https://github.com/nielsontrung/covid-app",
+      "doc_link": "https://github.com/",
+      "image": {
+        "width": "400px",
+        "height": "450px",
+        "alt": "This is an image",
+        "lazy-src": "https://i.imgur.com/qEuBmJW.png",
+        "src": "../assets/calgary-covid-tracker"
+      },
+      "icons": [
+        { "icon": "fab fa-react", "colour": "#72dbfa" },
+        { "icon": "fab fa-js", "colour": "#ffca28" },
+        { "icon": "fab fa-html5", "colour": "#e44d26" },
+        { "icon": "fab fa-css3", "colour": "#42a5f5" }
+      ],
+      "description": "A Single Page Pokémon Database and Team Builder!"
+    },
+    {
       "name": "Pokémon Team Builder",
       "start_month": "Nov 2021",
       "end_month": "",
