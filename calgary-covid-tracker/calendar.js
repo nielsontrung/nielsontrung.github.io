@@ -100,7 +100,7 @@ $.get(calendarURL, (response) => {
     title: {
       text:
         "Daily Active Covid-19 cases City of Calgary \n (Mar-01-2022) - " +
-        end_date,
+        end_date_formatted,
       left: "center",
       top: 15,
       textStyle: {

@@ -4,7 +4,7 @@ var mapApp = {}
 
 var covid_data
 var option
-var end_date
+var end_date_formatted
 
 function formatName(name) {
   if (name.length < 4) return name
@@ -35,8 +35,8 @@ function getEndDate(date) {
   var year = date_list[0]
   var month = month[date_list[1]]
   var day = date_list[2]
-  end_date = "(" + month + "-" + year + "-" + day + ")"
-  return end_date
+  end_date_formatted = "(" + month + "-" + year + "-" + day + ")"
+  return end_date_formatted
 }
 
 function getDailyActiveCasesPerCommunity(response) {
@@ -84,15 +84,15 @@ const geo_JSON_URL =
   "https://raw.githubusercontent.com/nielsontrung/calgary-covid-map/main/census_by_community_2019.geojson"
 $.get(covid_URL, (response) => {
   covid_data = getDailyActiveCasesPerCommunity(response)
-  end_date = getEndDate(
+  end_date_formatted = getEndDate(
     Object.keys(covid_data)[Object.keys(covid_data).length - 1]
   )
-  console.log(end_date)
+  var end_date = Object.keys(covid_data)[Object.keys(covid_data).length - 1]
   $.get(geo_JSON_URL, (calgary_Json) => {
     echarts.registerMap("Calgary", calgary_Json, {})
     option = {
       title: {
-        text: "Daily Active Covid Cases by Community \n " + end_date,
+        text: "Daily Active Covid Cases by Community \n " + end_date_formatted,
         subtext:
           "Data from https://data.calgary.ca/Demographics/Census-by-Community-2019/rkfr-buzb \n https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#data-export",
         sublink:
@@ -182,7 +182,7 @@ $.get(covid_URL, (response) => {
             },
           },
           // covid data
-          data: covid_data["2022-01-01"],
+          data: covid_data[end_date],
         },
       ],
     }
