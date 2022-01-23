@@ -28,12 +28,12 @@
       "image": {
         "width": "400px",
         "height": "450px",
-        "alt": "This is an image",
+        "alt": "Calgary Covid-19 Tracker",
         "lazy-src": "https://i.imgur.com/qEuBmJW.png",
         "src": "../assets/calgary-covid-tracker"
       },
       "icons": [
-        { "icon": "fab fa-react", "colour": "#72dbfa" },
+        { "icon": "fab fa-python", "colour": "#72dbfa" },
         { "icon": "fab fa-js", "colour": "#ffca28" },
         { "icon": "fab fa-html5", "colour": "#e44d26" },
         { "icon": "fab fa-css3", "colour": "#42a5f5" }
