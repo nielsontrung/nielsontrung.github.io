@@ -1,28 +1,28 @@
-var calendarDom = document.getElementById("calendar")
-var calendar = echarts.init(calendarDom, "dark")
+var calendarDom = document.getElementById('calendar')
+var calendar = echarts.init(calendarDom, 'dark')
 var calendarApp = {}
-
 var option
-
 var startYear
 var endYear
-var calendarWidth = 220
 var windowWidth = $(document).width()
+var windowHeight = $(document).height()
+var calendarWidth = $(document).width() * 0.15
+var visual_map_offset_scale = 0.01
 
 function getCalendarData(csv) {
   data = {}
-  var rows = csv.split("\n")
+  var rows = csv.split('\n')
   startYear = new Date().getFullYear()
   year = 0
   endYear = new Date().getFullYear()
 
   for (var i = 1; i < rows.length - 1; i++) {
-    row = rows[i].split(",")
+    row = rows[i].split(',')
     date = row[1]
     region = row[3]
-    if (region.includes("CITY OF CALGARY")) {
+    if (region.includes('CITY OF CALGARY')) {
       active_cases = parseInt(row[5])
-      year = parseInt(date.split("-")[0])
+      year = parseInt(date.split('-')[0])
       if (!(year in data)) {
         startYear = Math.min(startYear, year)
         data[year] = []
@@ -37,11 +37,11 @@ function getCalendarData(csv) {
 
 function getTooltipFormat(p) {
   return (
-    "<b>Calgary</b>" +
-    "<br/>" +
+    '<b>Calgary</b>' +
+    '<br/>' +
     p.data[0] +
-    "<br/>" +
-    "Active Cases: " +
+    '<br/>' +
+    'Active Cases: ' +
     p.data[1]
   )
 }
@@ -54,19 +54,19 @@ function getVisualMapOffset() {
 
 function getCalendarOptions() {
   var calendarOptions = []
-  var cellWidth = 13
-  var cellHeight = 13
+  var cellWidth = 10
+  var cellHeight = 10
   var calendarOffset =
     (windowWidth - (endYear - startYear) * calendarWidth) /
     (endYear - startYear)
   for (var i = 0; i < endYear - startYear + 1; i++) {
     option = {
       cellSize: [cellWidth, cellHeight],
-      orient: "vertical",
+      orient: 'vertical',
       range: (startYear + i).toString(),
-      bottom: 40,
+      bottom: 'center',
     }
-    option["left"] = i * calendarWidth + calendarOffset
+    option['left'] = i * calendarWidth + calendarOffset
     calendarOptions.push(option)
   }
   return calendarOptions
@@ -76,15 +76,15 @@ function getSeriesOptions() {
   var seriesOptions = []
   for (var i = 0; i < endYear - startYear + 1; i++) {
     option = {
-      name: "Active Daily Covid-19 Cases",
-      type: "heatmap",
-      coordinateSystem: "calendar",
+      name: 'Active Daily Covid-19 Cases',
+      type: 'heatmap',
+      coordinateSystem: 'calendar',
       calendarIndex: i,
       data: calendar_data[startYear + i],
       emphasis: {
         itemStyle: {
           shadowBlur: 10,
-          shadowColor: "rgba(0, 0, 0, 0.5)",
+          shadowColor: 'rgba(0, 0, 0, 0.5)',
         },
       },
     }
@@ -98,7 +98,7 @@ var csv
 var calendar_data
 
 var calendarURL =
-  "https://raw.githubusercontent.com/nielsontrung/calgary-covid-map/main/covid-19-alberta-statistics-map-data.csv"
+  'https://raw.githubusercontent.com/nielsontrung/calgary-covid-map/main/covid-19-alberta-statistics-map-data.csv'
 
 $.get(calendarURL, (response) => {
   csv = response
@@ -106,33 +106,33 @@ $.get(calendarURL, (response) => {
   option = {
     title: {
       text:
-        "Daily Active Covid-19 cases City of Calgary \n (Mar-01-2022) - " +
+        'Daily Active Covid-19 cases City of Calgary \n (Mar-01-2022) - ' +
         end_date_formatted,
-      left: "center",
+      left: 'center',
       top: 15,
       textStyle: {
         fontSize: 25,
       },
     },
     tooltip: {
-      position: "right",
+      position: 'right',
       formatter: (p) => getTooltipFormat(p),
     },
-    backgroundColor: "#161627",
+    backgroundColor: '#161627',
     visualMap: {
       min: 0,
       max: 5000,
-      type: "continuous",
+      type: 'continuous',
       calculable: true,
-      orient: "vertical",
-      right: getVisualMapOffset(),
-      top: "center",
+      orient: 'vertical',
+      top: 'center',
+      right: windowWidth * visual_map_offset_scale,
     },
     calendar: getCalendarOptions(),
     series: getSeriesOptions(),
   }
 
-  if (option && typeof option === "object") {
+  if (option && typeof option === 'object') {
     calendar.setOption(option)
   }
 })
