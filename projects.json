@@ -1,21 +1,52 @@
 {
-  "home": { "name": "Nielson Trung", "description": "this is a description" },
+  "home": { "name": "Nielson Trung" },
   "about": {
     "email": "nielson.h.trung@gmail.com",
     "phone": "(403) 383 2142",
-    "description": "Hi my name is Nielson, I am a recent graduate from the University of Calgary holding a Bachelor of Science in Computer Science",
-    "resume": "",
+    "description": "Hi my name is Nielson, I'm a new grad from the University of Calgary with a Bachelor's in Computer Science. I'm interested in developing software that add value to my life through enjoyment or productivity",
+    "resume": "https://nielsontrung.github.io/resume.pdf",
     "skills": [
-      "fab fa-python",
-      "fab fa-js",
-      "fab fa-html5",
-      "fab fa-css3",
-      "fab fa-react",
-      "fab fa-vuejs",
-      "fab fa-node-js",
-      "mdi-database",
-      "mdi-graphql"
-    ]
+      "devicon-cplusplus-plain",
+      "devicon-c-plain",
+      "devicon-python-plain",
+      "devicon-java-plain",
+      "devicon-javascript-plain",
+      "devicon-typescript-plain",
+      "devicon-html5-plain",
+      "devicon-css3-plain",
+      "devicon-bash-plain",
+      "devicon-rust-plain",
+      "devicon-php-plain",
+      "devicon-mysql-plain",
+      "devicon-haskell-plain"
+    ],
+    "os": [
+      "devicon-windows8-plain",
+      "devicon-linux-plain",
+      "devicon-ubuntu-plain"
+    ],
+    "libraries": [
+      "devicon-react-plain",
+      "devicon-vuejs-plain",
+      "devicon-angularjs-plain",
+      "devicon-nodejs-plain",
+      "devicon-bootstrap-plain",
+      "devicon-d3js-plain",
+      "devicon-mongodb-plain",
+      "devicon-graphql-plain"
+    ],
+    "tools": [
+      "devicon-vscode-plain",
+      "devicon-visualstudio-plain",
+      "devicon-jupyter-plain",
+      "devicon-pycharm-plain",
+      "devicon-git-plain",
+      "devicon-github-plain",
+      "devicon-gitlab-plain",
+      "devicon-npm-original-wordmark"
+    ],
+    "softwares": ["devicon-xd-plain"],
+    "hardwares": ["devicon-raspberrypi-line"]
   },
   "projects": [
     {
@@ -23,22 +54,22 @@
       "start_month": "Jan 2022",
       "end_month": "",
       "demo_link": "https://nielsontrung.github.io/calgary-covid-tracker/",
-      "git_link": "https://github.com/nielsontrung/covid-app",
+      "git_link": "https://github.com/nielsontrung/calgary-covid-map",
       "doc_link": "https://github.com/",
       "image": {
-        "width": "400px",
+        "width": "380px",
         "height": "450px",
         "alt": "Calgary Covid-19 Tracker",
-        "lazy-src": "https://i.imgur.com/qEuBmJW.png",
+        "lazy-src": "https://i.imgur.com/EOCxZS8.png",
         "src": "../assets/calgary-covid-tracker"
       },
       "icons": [
-        { "icon": "fab fa-python", "colour": "#72dbfa" },
+        { "icon": "fab fa-python", "colour": "white" },
         { "icon": "fab fa-js", "colour": "#ffca28" },
         { "icon": "fab fa-html5", "colour": "#e44d26" },
         { "icon": "fab fa-css3", "colour": "#42a5f5" }
       ],
-      "description": "A Single Page Pokémon Database and Team Builder!"
+      "description": "A choropleth map and calendar visualization of active Covid-19 cases in Calgary!"
     },
     {
       "name": "Pokémon Team Builder",

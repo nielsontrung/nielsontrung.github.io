@@ -5,6 +5,8 @@ var mapApp = {}
 var map_data
 var option
 var end_date_formatted
+var windowWidth = $(document).width()
+var windowHeight = $(document).height()
 
 function formatName(name) {
   if (name.length < 4) return name
@@ -91,7 +93,8 @@ $.get(covid_URL, (response) => {
     option = {
       title: {
         text:
-          'Active Covid-19 Cases by Calgary Community ' + end_date_formatted,
+          'City of Calgary Projected Covid-19 Cases by Community \n' +
+          end_date_formatted,
         subtext: 'https://github.com/nielsontrung/calgary-covid-tracker',
         sublink: 'https://github.com/nielsontrung/calgary-covid-tracker',
         left: 'center',

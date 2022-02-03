@@ -4,8 +4,7 @@ var calendarApp = {}
 var option
 var startYear
 var endYear
-var windowWidth = $(document).width()
-var windowHeight = $(document).height()
+
 var calendarWidth = $(document).width() * 0.15
 var visual_map_offset_scale = 0.01
 
@@ -54,8 +53,8 @@ function getVisualMapOffset() {
 
 function getCalendarOptions() {
   var calendarOptions = []
-  var cellWidth = 10
-  var cellHeight = 10
+  var cellWidth = 12
+  var cellHeight = 12
   var calendarOffset =
     (windowWidth - (endYear - startYear) * calendarWidth) /
     (endYear - startYear)
@@ -106,7 +105,7 @@ $.get(calendarURL, (response) => {
   option = {
     title: {
       text:
-        'Daily Active Covid-19 cases City of Calgary \n (Mar-01-2022) - ' +
+        'City of Calgary Daily Active Covid-19 cases \n (Mar-01-2020) - ' +
         end_date_formatted,
       left: 'center',
       top: 15,
