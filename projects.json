@@ -5,48 +5,142 @@
     "phone": "(403) 383 2142",
     "description": "Hi my name is Nielson, I'm a new grad from the University of Calgary with a Bachelor's in Computer Science. I'm interested in developing software that add value to my life through enjoyment or productivity",
     "resume": "https://nielsontrung.github.io/resume.pdf",
-    "skills": [
-      "devicon-cplusplus-plain",
-      "devicon-c-plain",
-      "devicon-python-plain",
-      "devicon-java-plain",
-      "devicon-javascript-plain",
-      "devicon-typescript-plain",
-      "devicon-html5-plain",
-      "devicon-css3-plain",
-      "devicon-bash-plain",
-      "devicon-rust-plain",
-      "devicon-php-plain",
-      "devicon-mysql-plain",
-      "devicon-haskell-plain"
+    "languages": [
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-plain.svg"
+      ],
+      [2, "devicon-rust-plain "],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg"
+      ]
     ],
     "os": [
-      "devicon-windows8-plain",
-      "devicon-linux-plain",
-      "devicon-ubuntu-plain"
+      [2, "devicon-windows8-plain colored"],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+      ],
+      [2, "devicon-ubuntu-plain colored"]
     ],
     "libraries": [
-      "devicon-react-plain",
-      "devicon-vuejs-plain",
-      "devicon-angularjs-plain",
-      "devicon-nodejs-plain",
-      "devicon-bootstrap-plain",
-      "devicon-d3js-plain",
-      "devicon-mongodb-plain",
-      "devicon-graphql-plain"
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+      ]
     ],
     "tools": [
-      "devicon-vscode-plain",
-      "devicon-visualstudio-plain",
-      "devicon-jupyter-plain",
-      "devicon-pycharm-plain",
-      "devicon-git-plain",
-      "devicon-github-plain",
-      "devicon-gitlab-plain",
-      "devicon-npm-original-wordmark"
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      ],
+      [2, "devicon-github-plain"],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+      ],
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+      ]
     ],
-    "softwares": ["devicon-xd-plain"],
-    "hardwares": ["devicon-raspberrypi-line"]
+    "software": [
+      "https://img.icons8.com/color/48/000000/microsoft-word-2019--v2.png",
+      "https://img.icons8.com/fluency/48/000000/microsoft-excel-2019.png",
+      "https://img.icons8.com/fluency/48/000000/microsoft-office-2019.png",
+      "https://img.icons8.com/color/48/000000/adobe-xd--v1.png"
+    ],
+    "hardware": [
+      [
+        1,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg"
+      ]
+    ]
   },
   "projects": [
     {
